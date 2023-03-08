@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <!-- The JS file needed to run after the HTML. -->
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1 class="h1">Tic Tac Toe</h1>
+
+      <form id="form1">
+        <label for="p1box">Player 1:</label><br />
+        <input type="text" id="p1box" value="Player 1" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <form id="form2">
+        <label for="p2box">Player 2:</label><br />
+        <input type="text" id="p2box" value="Player 2" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+      </div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+      <div id="winningMessageText"></div>
+      <button id="restartButton">Restart</button>
+    </div>
+  </body>
+</html>
+
+<!-- Inputting player names. 
+1.Make buttons for each player.
+
+2.Create an if statement to display player's name based on if x or circle wins.
+
+3.Add their name to the winning message.
+
+4. XXX
+
+5. XXX
+-->
